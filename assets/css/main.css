@@ -3,7 +3,6 @@
 /* GLOBALS
 -------------------------------------------------- */
 body {
-  padding-bottom: 40px;
   color: #010111; }
 
 /* NAV
@@ -31,7 +30,7 @@ body {
 -------------------------------------------------- */
 .carousel {
   height: 500px;
-  margin-bottom: 60px; }
+  margin-bottom: 0px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -40,7 +39,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777; }
+  background-color: #3c434d; }
 
 .carousel-inner > .item > img {
   position: absolute;
@@ -48,3 +47,12 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px; }
+
+/* TOP ROW
+-------------------------------------------------- */
+.top-row-header {
+  background-color: #010111;
+  height: 500px;
+  width: 100%;
+  color: #c6d5d6;
+  margin-top: 0; }
